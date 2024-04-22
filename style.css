@@ -1,0 +1,454 @@
+*
+{
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+.navbar .brand a
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: rgb(177, 177, 177);
+    transition: .3s ease;
+}
+
+.links a
+{
+    margin: 15px;
+}
+
+.user_upload a
+{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.user_upload a:hover
+{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: .3s ease;
+}
+
+.home .video_home video
+{
+    width: 100%;
+    /* display: block; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.vid_thumb
+{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+main
+{
+    display: flex;
+    padding: 0 15px;
+}
+
+main section
+{
+    margin: 15px;
+}
+
+.pic_home
+{
+    width: 25%;
+}
+
+.home
+{
+    width: 75%;
+}
+
+.search_form
+{
+    flex-grow: 1;
+}
+
+.search_form form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.search_form input
+{
+    padding: 5px;
+    border: 1px solid gray;
+    border-right-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 60%;
+}
+
+.search_form button
+{
+    border: 1px solid gray;
+    border-left-width: 0;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.search_form button i
+{
+    font-size: 18px;
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+}
+
+.title
+{
+    flex-grow: 1;
+}
+
+.btns button
+{
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+}
+
+.view
+{
+    font-size: 12px;
+    color: rgb(151, 151, 151);
+}
+
+.desc, .user_comment p
+{
+    font-size: 14px;
+    color: rgb(167, 167, 167);
+    width: 55%;
+    margin: 0;
+}
+
+.form_comments form input
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    outline: none;
+}
+
+.form_comments form input:focus
+{
+    border-bottom: 1px solid black;
+}
+
+.btns
+{
+    float: right;
+}
+
+.btns .btn
+{
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.btns .primary
+{
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+}
+
+.btns .without_border
+{
+    border: none;
+    font-weight: bold;
+}
+
+.btns .without_border:hover
+{
+    background-color: rgb(209, 209, 209);
+}
+
+.users_comment
+{
+    margin-top: 35px;
+}
+
+.user_privacy
+{
+    display: flex;
+    align-items: center;
+}
+
+.user_privacy .img
+{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user_privacy b
+{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.user_privacy span
+{
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+}
+
+.user_comment
+{
+    margin: 25px 0;
+}
+
+.user_comment p
+{
+    margin-top: 10px;
+    color: rgb(75, 75, 75);
+}
+
+.reaction
+{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.reaction .reac_btn
+{
+    margin-right: 15px;
+}
+
+.reaction button
+{
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+}
+
+.reaction .reac_btn button:hover
+{
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+}
+
+.replay button
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reac_btn .num_like, .reac_btn .num_dislike
+{
+    font-size: 13px;
+    color: rgb(138, 138, 138);
+}
+
+.another_video
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.another_video h3
+{
+    margin: 0;
+}
+
+.another_video span
+{
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+}
+
+.items
+{
+    margin-top: 10px;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+}
+
+.items .views
+{
+    padding-right: 10px;
+}
+
+.items .date::before
+{
+    content: '* ';
+}
+
+footer
+{
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+footer p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px)
+{
+    .user_upload
+    {
+        display: none;
+    }
+
+    main
+    {
+        flex-direction: column;
+    }
+
+    .brand
+    {
+        display: none;
+    }
+
+    .pic_home
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .content
+    {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .btns
+    {
+        margin-bottom: 10px;
+    }
+
+    .desc
+    {
+        width: 100%;
+    }
+
+    .comments h3
+    {
+        font-size: 15px;
+    }
+
+    .users_comment {
+        margin-top: 60px;
+    }
+
+    .btns .btn
+    {
+        margin: 5px;
+    }
+    
+    .btns .primary
+    {
+        padding: 5px 15px;
+    }
+
+    .user_comment p
+    {
+        width: 100%;
+    }
+
+    .vid_thumb
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .navbar
+    {
+        display: block;
+    }
+
+    .search_form
+    {
+        margin-top: 15px;
+    }
+
+    .search_form form
+    {
+        justify-content: start;
+    }
+
+    .another_video .title h3
+    {
+        font-size: 15px;
+    }
+
+    .pic_home h1
+    {
+        font-size: 15px;
+    }
+}
